@@ -1090,7 +1090,7 @@ def inputDayOfWeek(
     'Friday'
     """
 
-    # TODO - add returnNumber and return abbreivation parameters.
+    # TODO - add returnNumber and returnAbbreviation parameters.
 
     validationFunc = lambda value: pysv.validateDayOfWeek(
         value, blank=blank, strip=strip, allowRegexes=allowRegexes, blockRegexes=blockRegexes,
